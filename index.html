@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Byte Horizon</title>
+    <link rel="icon" href="BYTE.png">
+    <style>
+        /* Custom styles that can be added to your own CSS file */
+        /* Center the image and button vertically and horizontally */
+        .center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
 </head>
-<body class="bg-gray-900 min-h-screen flex items-center justify-center text-gray-200">
-	<div class="p-8 rounded-lg ">
-	    <img src="byte.svg" alt="logo">
-	    <section class="mt-8 text-center">
-	        <p><a href="mailto:info@byte-horizon.com">Contact us</a></p>
-	    </section>
-	</div>
-</body></html>
+<body class="bg-gray-900">
+    <div class="center">
+        <!-- Image (Replace 'image.jpg' with your image path) -->
+        <img src="byte.svg" alt="Your Image">
+        
+        <!-- Contact Us Button -->
+        <a href="mailto:your.email@example.com" class="mt-4 text-white py-2 px-4">Contact Us</a>
+    </div>
+</body>
+</html>
